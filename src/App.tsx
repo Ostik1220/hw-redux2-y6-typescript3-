@@ -53,7 +53,7 @@ function merge<U>(objA:Object , objB: U) {
 
 
 
-	class Page extends Component{
+class Page extends Component<{title: string}> {
 	 pageInfo () {
 	   console.log(this.props.title);
 	 }
